@@ -1,0 +1,91 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bakbak+One&display=swap');
+
+:root{
+ --fonte1: Verdana, Geneva, Tahoma, sans-serif;
+ --fonte2: 'Bakbak One', cursive;
+
+
+}
+
+*{
+     margin: 0%;
+     padding: 0%;
+}
+header{
+    
+    padding-top: 20px;
+    padding-bottom: 70vh;
+
+    background-image: url("imagens/coworking1.jpg");
+    background-position: center center;
+    background-size: cover;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.486);
+
+}
+
+header nav {
+    padding: 10px;
+    text-align: center;
+    
+}
+
+.button{
+    font-family: var(--fonte2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px;   
+}
+
+.button{
+    position: inherit;
+    display: inline-block;
+    padding: 11px 15px;
+    color: black;
+    text-transform: uppercase;
+    text-decoration: none;
+    overflow: hidden;
+    transition: 0.8s;
+}
+
+.button:hover{
+    color: #255784;
+    background-color: #2196f3;
+    box-shadow: 0 0 10px rgb(179, 112, 12), 0 0 40px rgb(179, 112, 12), 0 0 80px rgb(179, 112, 12);
+    transition-delay: 0.1s;
+    background-color: blanchedalmond;
+
+}
+
+main{
+    min-width: 300px;
+    max-width: 1300px;
+    margin: auto;
+    margin-bottom: 30px;
+    padding-top: 20px;
+    background-color: #2196f3;
+}
+
+.sec{
+
+    display: inline-block;
+    border: 1px solid black;
+    text-align: center;
+    height: 300px;
+    width: 400px;
+    background-color: #F2F2F2;
+}
+
+img{
+    display: block;
+    max-width: 100%;
+    height: 20%;
+}
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 8px;
+}
