@@ -1,14 +1,26 @@
 @charset "UTF-8";
 
+body{
+    line-height: 1.5;
+}
+
 @import url('https://fonts.googleapis.com/css2?family=Bakbak+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Raleway:wght@200&display=swap');
+@import url('https://www.fontspace.com/baskara-font-f71930');
+
+@font-face {
+    font-family: 'Baskara';
+    src: url('../fontes/baskara-regular.otf') format('opentype');
+    font-weight: normal;
+}
+
 
 :root{
- --fonte1: Verdana, Geneva, Tahoma, sans-serif;
- --fonte2: 'Bakbak One', cursive;
- --fonte3: 'Raleway', sans-serif;
-
+    --fonte1: Verdana, Geneva, Tahoma, sans-serif;
+    --fonte2: 'Bakbak One', cursive;
+    --fonte3: 'Raleway', sans-serif;
+    --fonte-baskara: 'Baskara' cursive;
 
 }
 
@@ -17,38 +29,36 @@
      padding: 0%;
 }
 
-body{
-    line-height: 1.5;
-}
+
 header{
-    
+    background-image: url("imagens/coworking1.jpg");
     padding-top: 20px;
     padding-bottom: 91vh;
-
-    background-image: url("imagens/coworking1.jpg");
     background-position: center center;
     background-size: cover;
     box-shadow: inset 6px 6px 480px 0px rgba(0, 0, 0, 0.486);
-
 }
 
 header nav {
     padding: 10px;
     text-align: center;
+    background-position-x: 0px;
+    background-size: 100% 5px;
+    z-index: 0;
     
 }
 
 header #tituloh1{
     position: absolute;
     left: 0;
-    top: 50%;
+    top: 30%;
     width: 100%;
     z-index: 3;
     text-align: center;
 
     color: white;
     font-size: 2em;
-    font-family: var(--fonte2);
+    font-family: var(--fonte-baskara);
 }
 
 header h1 {
@@ -82,6 +92,37 @@ header h1 {
 
 }
 
+header #div2{
+    vertical-align: baseline;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 70%;
+}
+
+header #button2{
+    justify-content: center;
+    align-items: center;
+    color: black;
+    background-color: white;
+    font-family: var(--fonte2);
+    position: 70px;
+
+
+
+}
+
+#button2 {
+    position: inherit;
+    display: inline-block;
+    padding: 11px 15px;
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    overflow: hidden;
+    transition: 0.8s;
+}
+
 main{
     min-width: 300px;
     max-width: 1223px;
@@ -103,7 +144,50 @@ main > section #divone{
     width: 300px;
     width: 100%;
     text-align: center;
+
+    padding-bottom: 40px;
 }
+
+main #div3{
+    
+
+    vertical-align: baseline;
+    position: absolute;
+    left: 0;
+    right: 0;
+    color: black;
+}
+
+main .textpadding{
+    padding-bottom: 30px;
+}
+
+main .textpadding1{
+    padding-bottom: 30px;
+    font-size: 16px;
+    vertical-align: baseline;
+    color: #4b4b4b;
+    line-height: 22px;
+}
+
+main #button3{
+    justify-content: center;
+    align-items: center;
+    color: black;
+    background-color: chartreuse;
+    font-family: var(--fonte2);
+ }
+
+ #button3{
+    position: inherit;
+    display: inline-block;
+    padding: 11px 15px;
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    overflow: hidden;
+    transition: 0.8s;
+ }
 
 
 footer {
