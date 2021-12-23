@@ -58,7 +58,7 @@ header #tituloh1{
 
     color: white;
     font-size: 2em;
-    font-family: var(--fonte-baskara);
+    font-family: var(--fonte3);
 }
 
 header h1 {
@@ -124,8 +124,7 @@ header #button2{
 }
 
 main{
-    min-width: 300px;
-    max-width: 1223px;
+
     margin: auto;
     margin-bottom: 30px;
     padding-top: 20px;
@@ -160,11 +159,13 @@ main #div3{
 
 main .textpadding{
     padding-bottom: 30px;
+    font-family: Helvetica, sans-serif;
 }
 
 main .textpadding1{
     padding-bottom: 30px;
     font-size: 16px;
+    font-family: Helvetica, sans-serif;
     vertical-align: baseline;
     color: #4b4b4b;
     line-height: 22px;
@@ -189,12 +190,76 @@ main #button3{
     transition: 0.8s;
  }
 
+ main #div4{
+    vertical-align: baseline;
+    position: absolute;
+    display: flexbox;
+    left: 0;
+    right: 0;
 
-footer {
+    text-align: center;
+
+ }
+
+ main .textpadding2{
+    padding-top: 60px;
+    padding-bottom: 30px;
+    font-family: Helvetica, sans-serif;
+    
+ }
+
+ main .icons{
+     display: inline-block;
+     height: 100px;
+     width: 100px;
+
+     padding-left: 70px;
+     padding-right: 70px;
+
+ }
+
+ main .divpicture{
+     display: inline-block;
+ }
+
+ main .divpicture2{
+     display: inline-block;
+     padding-top: 30px;
+ }
+
+.imgparallax{
+
+    height: 200px;
+    background-position: center, center;
+    background-size: cover;
+    background-image: url('imagens/2852238.jpg');
+
+    padding-top: 20px;
+    padding-bottom: 30vh;
+    background-position: center center;
+    background-attachment: fixed;
+
+ }
+
+ .h1parallax{
+    display: inline-block;
+    padding: 10px;
+    background-color: transparent;
+
+    color: white;
+    font-size: 2em;
+    font-family: var(--fonte3);
+    
+ }
+/*footer {
     background-color: black;
     color: white;
     text-align: center;
     padding: 8px;
+    left: 0;
+    right: 0;
 
-    position: bottom;
-}
+    width: 100vh;
+    
+    position: absolute;
+} */
