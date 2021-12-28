@@ -128,6 +128,7 @@ main{
     margin: auto;
     margin-bottom: 30px;
     padding-top: 20px;
+    text-align: center;
 
 }
 
@@ -235,22 +236,69 @@ main #button3{
     background-image: url('imagens/2852238.jpg');
 
     padding-top: 20px;
-    padding-bottom: 30vh;
+    padding-bottom: 25vh;
     background-position: center center;
     background-attachment: fixed;
 
  }
 
- .h1parallax{
-    display: inline-block;
-    padding: 10px;
-    background-color: transparent;
+  #idforparallax{
+    position: absolute;
+    left: 0;
+    right: 0;
+    z-index: 2;
 
-    color: white;
-    font-size: 2em;
-    font-family: var(--fonte3);
-    
+    display: flex;
+
+   
  }
+
+ .h1parallax{
+    position: relative;
+    left: 0;
+    right: 0;
+    z-index: 3;
+    width: 100%;
+    line-height: 66px;
+    color: #fff;
+    font-size: 50px;
+    text-transform: uppercase;
+    text-align: center;
+
+    padding-top: 40px;
+    padding-bottom: 40px;
+ }
+
+ #formdiv{
+    position: absolute;
+    left: 0;
+    right: 0;
+    z-index: 2;
+
+    display: flex;
+
+ }
+
+ input[type=text] {
+    width: 470px;
+    height: 50px;
+    padding: 0 16px;
+    margin: 90;
+    box-sizing: border-box;
+    border: none;
+    background-color: #3cbc8d17;
+    color: black;
+  }
+  .buttonform{
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 0 16px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    padding-top: 20px;
+  }
 /*footer {
     background-color: black;
     color: white;
