@@ -1,8 +1,6 @@
 @charset "UTF-8";
 
-body{
-    line-height: 1.5;
-}
+
 
 @import url('https://fonts.googleapis.com/css2?family=Bakbak+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap');
@@ -29,6 +27,10 @@ body{
      padding: 0%;
 }
 
+body{
+    line-height: 1.5;
+    font-family: var(--fonte1);
+}
 
 header{
     background-image: url("imagens/coworking1.jpg");
@@ -297,17 +299,14 @@ main #button3{
     text-decoration: none;
     margin: 4px 2px;
     cursor: pointer;
-    padding-top: 20px;
+    padding-top: 16px;
+    padding-bottom: 17px;
   }
-/*footer {
+footer {
     background-color: black;
     color: white;
     text-align: center;
     padding: 8px;
     left: 0;
     right: 0;
-
-    width: 100vh;
-    
-    position: absolute;
-} */
+}
